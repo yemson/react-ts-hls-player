@@ -1,0 +1,38 @@
+{
+  "name": "react-ts-hls-player",
+  "version": "0.0.1",
+  "description": "A React component for playing HLS streams with hls.js",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "peerDependencies": {
+    "hls.js": "^1.6.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "keywords": [
+    "react",
+    "hls",
+    "video",
+    "player"
+  ],
+  "author": "yemson",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "rollup": "^4.39.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.8.2"
+  }
+}
