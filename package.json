@@ -17,6 +17,10 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yemson/react-ts-hls-player.git"
+  },
   "keywords": [
     "react",
     "hls",
